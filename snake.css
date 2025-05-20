@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+    background-color: rgb(129, 129, 129);
+    padding-top: 140px;
+}
+#heading{
+    font-size: 100px;
+    margin: auto;
+    color: rgb(0, 0, 0);
+
+}
+#game{
+    margin: auto;
+    display: none;
+    background-color: #7c7c7c;
+}
+#score{
+    display: none;
+    font-size: 40px;
+    margin: auto;
+    margin-top: 30px;
+    color: rgb(0, 0, 0);
+}
+#start{
+    width: 250px;
+    height: 50px;
+    margin: auto;
+    margin-top: 30px;
+    display: block;
+    background-color: rgb(51, 50, 50);
+    border-style: solid;
+    border-width: 0;
+    font-size: 30px;
+    color: #7c7c7c;
+}
+
+#start:hover{
+    border-width: 4px;
+    border-color: rgb(51, 50, 50);
+    background-color: rgb(87, 86, 86);
+    color: rgb(51, 50, 50);
+}
